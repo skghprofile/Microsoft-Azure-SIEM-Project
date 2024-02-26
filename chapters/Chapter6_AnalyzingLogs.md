@@ -1,0 +1,1 @@
+#Chapter 6: Analyzing Logs in Azure with KQL
