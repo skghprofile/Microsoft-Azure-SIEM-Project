@@ -1,0 +1,1 @@
+#Chapter 2: Setting Up Azure Logs Analytics Workspace
