@@ -1,6 +1,6 @@
-#Chapter 7: Findings and Conclusions
+# Chapter 7: Findings and Conclusions
 
-###This chapter will go into detail with my findings and conclusions from this project that took place over a total timespan of just over a week (~8 days).
+### This chapter will go into detail with my findings and conclusions from this project that took place over a total timespan of just over a week (~8 days).
 
 &nbsp;
 
@@ -41,7 +41,7 @@
 
 - Along with the **314k+ failed connections** there were **10 successful anonymous connections** and **0 unknown credentialed successful remote connections** to the virtual computer honeypot.
 
-#What I learned
+# What I learned
 
 - Initially, I learned how to set up a virtual machine in **Microsoft Azure**, collect logs using **Azure Log Analytics workspaces**, and configure a dashboard within **Azure’s Microsoft Sentinel**. However, what I didn’t anticipate was the wealth of knowledge I’d gain through real traffic analysis and my investigation into the logs collected after the initial setup.
 - I thought I learned a lot looking through my cybersecurity textbooks and online videos befire starting this project, seeing security principles in action was an entirely different experience. This project has been an eye-opener, revealing how networks and computers connected to the internet are constantly under attack. Without robust security controls, they become vulnerable targets. 
@@ -52,7 +52,7 @@
 - Through this project I researched more about the **Anonymous Logons** through the default **Workgroup** and **NT Authority** accounts since there were unknown successful connections made through them.
 - I learned that even with enabling the **Windows Firewall**, it doesn't restrict anonymous logons to a workgroup. Instead, it has to be disabled through the local machine's Windows Registry or through Group Policy.
 
-#Conclusion
+# Conclusion
 
 - This project showed and emphasized the importance of serveral aspects related to computer and network security:
   - Vulnerability to External Threats: Connecting computers or networks to the internet without proper security practices in place can lead to easy compromise by external threat actors.

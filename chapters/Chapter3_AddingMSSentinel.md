@@ -1,4 +1,4 @@
-#Chapter 3: Adding Microsoft Sentinel
+# Chapter 3: Adding Microsoft Sentinel
 
 - In this chapter, I will set up the **Microsoft Sentinel** service inside Azure so I can visualize events through dashboards and queries in the later chapters.
 - **Microsoft Sentinel** will use the log data from the **Low Analytics workspace** I set up in the previous chapter.
@@ -21,5 +21,5 @@
 
 &nbsp;
 
-##Next Chapter: 
-###[Chapter 4: First Look At New Virtual Machine](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter4_ConnectingToVM.md)
+## Next Chapter: 
+### [Chapter 4: First Look At New Virtual Machine](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter4_ConnectingToVM.md)

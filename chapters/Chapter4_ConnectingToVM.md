@@ -51,5 +51,5 @@
 
 &nbsp;
 
-##Next Chapter: 
-###[Chapter 5: Creating SIEM Dashboard](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter5_CreatingSIEMDashboard.md)
+## Next Chapter: 
+### [Chapter 5: Creating SIEM Dashboard](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter5_CreatingSIEMDashboard.md)

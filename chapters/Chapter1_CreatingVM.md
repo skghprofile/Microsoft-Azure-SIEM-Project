@@ -55,5 +55,5 @@ To create the new rule, the **Advanced** radio button needs to be selected under
 
 &nbsp;
 
-##Next Chapter: 
-###[Chapter 2: Setting Up Azure Logs Analytics Workspace](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter2_SetupLAW.md)
+## Next Chapter: 
+### [Chapter 2: Setting Up Azure Logs Analytics Workspace](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter2_SetupLAW.md)

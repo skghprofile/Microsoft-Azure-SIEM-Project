@@ -1,4 +1,4 @@
-#Chapter 5: Creating SIEM Dashboard
+# Chapter 5: Creating SIEM Dashboard
 
 - In this chapter, I will walk through creating a simple SIEM dashboard that will end up looking like the dashboard in the image below. The dashboard will show how many failed login attempts happened every 30 minutes, the largest amount of failed logins from the same IP address source, and the most popular usernames that outside connections attempted to log in with.
 
@@ -137,5 +137,5 @@ SecurityEvent
 
 &nbsp;
 
-##Next Chapter: 
-###[Chapter 6: Analyzing Logs in Azure with KQL](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter6_AnalyzingLogs.md)
+## Next Chapter: 
+### [Chapter 6: Analyzing Logs in Azure with KQL](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter6_AnalyzingLogs.md)

@@ -1,4 +1,4 @@
-#Chapter 2: Setting Up Azure Logs Analytics Workspace
+# Chapter 2: Setting Up Azure Logs Analytics Workspace
 
 - The purpose of this chapter is to set up **Log Analytics workspaces** so that event logs from the honeypot virtual machine can be used in Azure.
 - This is also useful if the logs are deleted on the virtual machine, they will still be available through Azure.
@@ -70,5 +70,5 @@
 
 &nbsp;
 
-##Next Chapter: 
-###[Chapter 3: Adding Microsoft Sentinel](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter3_AddingMSSentinel.md)
+## Next Chapter: 
+### [Chapter 3: Adding Microsoft Sentinel](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter3_AddingMSSentinel.md)

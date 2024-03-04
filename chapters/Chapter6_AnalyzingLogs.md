@@ -1,4 +1,4 @@
-#Chapter 6: Analyzing Logs in Azure with KQL
+# Chapter 6: Analyzing Logs in Azure with KQL
 
 - In this chapter, I want to use more queries to inquire about more details from the questions I had in the back of my mind when looking at the dashboard and progressing through the project in general.
 - The biggest question I had was if someone was able to successfully log into the machine and how they did so.
@@ -135,5 +135,5 @@ SecurityEvent
 
 &nbsp;
 
-##Next Chapter: 
-###[Chapter 7: Findings and Conclusions](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter7_FindingsConclusions.md)
+## Next Chapter: 
+### [Chapter 7: Findings and Conclusions](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter7_FindingsConclusions.md)
