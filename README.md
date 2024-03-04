@@ -11,11 +11,11 @@
 ## Overview of the Project
 
  1. Create a **Free Azure Account** (with $200 in free credits for the first month)
- 2. Set up a new **Virtual Machine** in Azure to use as the honeypot for the project.
+ 2. Set up a new **Virtual Machine** in Azure to serve as the honeypot for the project.
  3. Create a new **Log Analytics Workspace** to aggregate the event logs from the Virtual Machine.
  4. Set up **Azure Sentinel** with Azure. (Microsoft's cloud-native SIEM).
  5. Create a **SIEM dashboard** in **Azure Sentinel** for viewing log data.
- 6. Use queries in **Logs** tab of **Log Analytics Workspace** to investigate specific incidents in more detail
+ 6. Use queries in the **Logs** tab of **Log Analytics Workspace** to investigate specific incidents in more detail
  7. Show results and document the importance of security principles.
 
 <img src="https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/AzureVMOverview.PNG" alt="Project Overview Diagram" width="600">
@@ -32,13 +32,13 @@
 
 ## Table Of Contents
 
-1. [Chapter 1: Creating The Azure Virtual Machine]()
-2. [Chapter 2: Setting Up Azure Logs Analytics Workspace]()
-3. [Chapter 3: Adding Microsoft Sentinel]()
-4. [Chapter 4: First Look At New Virtual Machine]()
-5. [Chapter 5: Creating SIEM Dashboard]()
-6. [Chapter 6: Analyzing Logs in Azure with KQL]()
-7. [Chapter 7: Findings and Conclusions]()
+1. [Chapter 1: Creating The Azure Virtual Machine](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter1_CreatingVM.md)
+2. [Chapter 2: Setting Up Azure Logs Analytics Workspace](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter2_SetupLAW.md)
+3. [Chapter 3: Adding Microsoft Sentinel](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter3_AddingMSSentinel.md)
+4. [Chapter 4: First Look At New Virtual Machine](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter4_ConnectingToVM.md)
+5. [Chapter 5: Creating SIEM Dashboard](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter5_CreatingSIEMDashboard.md)
+6. [Chapter 6: Analyzing Logs in Azure with KQL](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter6_AnalyzingLogs.md)
+7. [Chapter 7: Findings and Conclusions](https://github.com/skghprofile/Microsoft-Azure-SIEM-Project/blob/main/chapters/Chapter7_FindingsConclusions.md)
 
 ## License
 
