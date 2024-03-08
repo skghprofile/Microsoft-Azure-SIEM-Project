@@ -4,7 +4,7 @@
 
 &nbsp;
 
-2. From Azure's homepage, there are several ways to create a new virtual machine, but in my example, I clicked **Create a resource** under **Azure services** and then clicked the **Create** hyperlink under **Virtual machine**
+2. From Azure's homepage, there are several ways to create a new virtual machine, but in my example, I clicked **Create a resource** under **Azure services** and then clicked the **Create** hyperlink under **Virtual machine**.
 
 ![Screenshot of creating new VM](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c1-img1.PNG)
 

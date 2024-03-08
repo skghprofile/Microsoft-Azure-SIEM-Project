@@ -121,7 +121,7 @@ SecurityEvent
 ![Screenshot of IP address result from VirusTotal](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c6-img13.PNG)
 
 9. While investigating the IP address that originated from France near the start of this project, I accidentally copied and pasted the address into the browser and was met with an unexpecting web page. I noted that the IP address directly connected to a web page and wanted to document it later with screenshots but was unable to recreate the path to the web page directly with the IP address.
-- I used another IP address lookup website and found the hostname associated with the IP address **scan072.intrinsec.com**
+- I used another IP address lookup website and found the hostname associated with the IP address **scan072.intrinsec.com**.
 
 ![Screenshot of IP address lookup result](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c6-img14.PNG)
 

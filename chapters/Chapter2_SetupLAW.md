@@ -8,7 +8,7 @@
 
 ![Screenshot of Log Analytics workspaces search](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c2-img1.PNG)
 
-2. Next is to create a new workspace by clicking the **Create** button on the **Log Analytics workspaces** page
+2. Next is to create a new workspace by clicking the **Create** button on the **Log Analytics workspaces** page.
 
 ![Screenshot of Log Analytics workspaces overview](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c2-img2.PNG)
 
@@ -50,7 +50,7 @@
 
 - Now that the **LAW-HoneypotVMLab Log Analytics workspace** is set up to record security events, it needs to know which machine/server to get those events from. In these next steps, I will connect the created Log Analytics workspace to my virtual machine.
 
-11.  Heading back to the main **Log Analytics workspace** page, I clicked the **LAW-HoneypotVMLab** created earlier to connect it to my virtual machine
+11.  Heading back to the main **Log Analytics workspace** page, I clicked the **LAW-HoneypotVMLab** created earlier to connect it to my virtual machine.
 
 ![Screenshot of Log Analytics workspaces overview](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c2-img12.PNG)
 

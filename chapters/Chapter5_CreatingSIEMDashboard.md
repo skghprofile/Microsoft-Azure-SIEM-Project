@@ -96,11 +96,11 @@ SecurityEvent
 ```
 
 - The only difference between this query and the one before is the **Account** instead of **IPAddress** in the third line of the query. This tells the query to pull the Account (username) from the filtered Security Event data source.
-- I also changed the **Time Range** to **Last 7 Days** and the **Visualization** to **Pie Chart**
+- I also changed the **Time Range** to **Last 7 Days** and the **Visualization** to **Pie Chart**.
 
 ![Screenshot of New query settings](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c5-img16.PNG)
 
-15. In the **Advanced Settings** tab I changed the **Chart title** to **Failed Username Count**
+15. In the **Advanced Settings** tab I changed the **Chart title** to **Failed Username Count**.
 
 ![Screenshot of New query advanced settings](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c5-img17.PNG)
 
@@ -124,7 +124,7 @@ SecurityEvent
 
 ![Screenshot of New workbook save as screen apply button](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c5-img21.PNG)
 
-20. Heading back to the **Microsoft Sentinel** service under the **Workbooks** tab, I can now see the saved workbook dashboard under the name **Honeypot VM Dashboard**
+20. Heading back to the **Microsoft Sentinel** service under the **Workbooks** tab, I can now see the saved workbook dashboard under the name **Honeypot VM Dashboard**.
 -Clicking the name **Honeypot VM Dashboard** and then **View saved workbook** at the bottom right of the page will open it up on a new page.
 
 ![Screenshot of updated Microsoft Sentinel Workbooks page](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c5-img22.PNG)
