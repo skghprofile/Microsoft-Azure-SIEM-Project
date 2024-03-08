@@ -49,4 +49,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - This project is directly inspired by Josh Madakor's [YouTube Channel](https://www.youtube.com/@JoshMadakor).
   - [Josh Madakor's Video Link](https://www.youtube.com/watch?v=RoZeVbbZ0o0)
 
-- I appreciate [ZeroTrustAccess](https://github.com/ZeroTrustAccess) and their documentation on the same [project](https://github.com/ZeroTrustAccess/Honeypot/blob/main/README.md) for markdown layout inspiration and more. Their work was especially helpful as some Azure features have been updated or relocated since Josh Madakor’s video from over two years ago.
+- I appreciate [ZeroTrustAccess](https://github.com/ZeroTrustAccess) and their documentation on the same [project](https://github.com/ZeroTrustAccess/Honeypot/blob/main/README.md) for markdown layout inspiration and more. Their work was beneficial as some Azure features have been updated or relocated since Josh Madakor’s video from over two years ago.

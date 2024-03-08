@@ -4,7 +4,7 @@
 
 &nbsp;
 
-- Over the 8 days of this project, there were a total of over **314,000+** unsuccessful external connections made to the honeypot virtual machine.
+- Over the eight days of this project, over **314,000+** unsuccessful external connections were made to the honeypot virtual machine.
 - The top 10 most failed connections to the honeypot virtual machine are as follows:
 
 | IP Address      | # Of Connections | IP Country Source  |
@@ -43,22 +43,22 @@
 
 # What I learned
 
-- Initially, I learned how to set up a virtual machine in **Microsoft Azure**, collect logs using **Azure Log Analytics workspaces**, and configure a dashboard within **Azure’s Microsoft Sentinel**. However, what I didn’t anticipate was the wealth of knowledge I’d gain through real traffic analysis and my investigation into the logs collected after the initial setup.
-- I thought I learned a lot looking through my cybersecurity textbooks and online videos befire starting this project, seeing security principles in action was an entirely different experience. This project has been an eye-opener, revealing how networks and computers connected to the internet are constantly under attack. Without robust security controls, they become vulnerable targets. 
-- I learned that the automated bots/scripts I encountered in this project rely on people who set up systems on the internet with default usernames and simple passwords. I was honestly surprised by the sheer amount of connections that were made with a variation of the username "Administrator" or the computer's name "HoneypotVM-01". This still makes me wonder how often computers and networks still use simple usernames and passwords, since these types of automated attacks are still used in 2024.
+- Initially, I learned how to set up a virtual machine in **Microsoft Azure**, collect logs using **Azure Log Analytics workspaces**, and configure a dashboard within **Azure’s Microsoft Sentinel**. However, I didn’t anticipate the wealth of knowledge I’d gain through actual traffic analysis and my investigation into the logs collected after the initial setup.
+- I thought I learned a lot looking through my cybersecurity textbooks and online videos before starting this project, but seeing security principles in action was an entirely different experience. This project has been an eye-opener, revealing how networks and computers connected to the internet are constantly under attack. Without robust security controls, they become vulnerable targets. 
+- I learned that the automated bots/scripts I encountered in this project rely on people who set up systems on the internet with default usernames and simple passwords. I was honestly shocked by the sheer amount of connections made with a variation of the username "Administrator" or the computer's name "HoneypotVM-01". This makes me wonder how often computers and networks still use simple usernames and passwords, since these automated attacks are still used in 2024.
 
 &nbsp;
 
-- Through this project I researched more about the **Anonymous Logons** through the default **Workgroup** and **NT Authority** accounts since there were unknown successful connections made through them.
-- I learned that even with enabling the **Windows Firewall**, it doesn't restrict anonymous logons to a workgroup. Instead, it has to be disabled through the local machine's Windows Registry or through Group Policy.
+- Through this project, I researched more about the **Anonymous Logons** through the default **Workgroup** and **NT Authority** accounts since there were unknown successful connections made through them.
+- I learned that even with enabling the **Windows Firewall**, it doesn't restrict anonymous logons to a workgroup. Instead, it has to be disabled through the local machine's Windows Registry or Group Policy.
 
 # Conclusion
 
-- This project showed and emphasized the importance of serveral aspects related to computer and network security:
-  - Vulnerability to External Threats: Connecting computers or networks to the internet without proper security practices in place can lead to easy compromise by external threat actors.
-  - Usernames and Passwords: The significance of avoiding default usernames like "Administrator" and emphasizing the use of complex passwords.
-  -  Constant Threat Landscape: By merely being connected to the internet, computers and networks can face thousands of attempted connections daily. Knowledgeable network administrators and the use of robust security controls are essential to safeguard against these persistent threats.
-  - Firewall Configuration: To mitigate attacks similar to the one encountered in this project, enabling and configuring firewalls becomes crucial. By blocking unnecessary ports and those not in active use, we can significantly enhance security. The primary ports associated with the attacks observed in this project include:
+- This project showed and emphasized the importance of several aspects related to computer and network security:
+  - Vulnerability to External Threats: Connecting computers or networks to the internet without proper security practices can lead to easy compromise by external threat actors.
+  - Usernames and Passwords: The significance of avoiding default usernames like "Administrator" and emphasizing the importance of complex passwords.
+  -  Constant Threat Landscape: By merely being connected to the internet, computers and networks can face thousands of attempted connections daily. Knowledgeable network administrators and robust security controls are essential to safeguard against these persistent threats.
+  - Firewall Configuration: To mitigate attacks like the one encountered in this project, enabling and configuring firewalls becomes crucial. We can significantly enhance security by blocking unnecessary ports and those not in active use. The primary ports associated with the attacks observed in this project include:
     -  TCP 3389 for Remote desktop connections.
     -  TCP/UDP 445 for file and printer sharing in a workgroup.
     -  TCP/UDP 137 - 139 for NetBIOS services (which might explain how external connections learned the virtual machine honeypot name).

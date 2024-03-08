@@ -1,8 +1,8 @@
 # Chapter 4: First Look At New Virtual Machine
 
-- Now that the core setup of this project is completed (Virtual Machine, Log Analytics Workspace, and Microsoft Sentinel) I can connect to the virtual machine and change a couple of options within it before heading back to Azure for the rest of this project.
+- Now that the core setup of this project is completed (Virtual Machine, Log Analytics Workspace, and Microsoft Sentinel), I can connect to the virtual machine and change a couple of options within it before heading back to Azure for the rest of this project.
 
-1. To connect to the virtual machine I first need the public IP address to connect to. This can be found in the **Overview** section of the virtual machine that was created in Chapter 1. The Public IP address for this machine is **20.55.107.156** .
+1. To connect to the virtual machine, I first need the public IP address to connect to. This can be found in the **Overview** section of the virtual machine that was created in Chapter 1. The Public IP address for this machine is **20.55.107.156**.
 
 ![Screenshot of Honeypot VM with Public IP Address](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c4-img1.PNG)
 
@@ -10,16 +10,16 @@
 
 ![Screenshot of Remote Desktop Connection Program](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c4-img2.PNG)
 
-3. In the **Remote Desktop Connection** program I entered the IP from before (20.55.107.156) in the Computer field and used the username I created earlier (SteveVMAdmin) and clicked **Connect**
+3. In the **Remote Desktop Connection** program, I entered the IP from before (20.55.107.156) in the Computer field, used the username I created earlier (SteveVMAdmin), and clicked **Connect**.
 
 ![Screenshot of Remote Desktop Connection Program](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c4-img3.PNG)
 
-4. Now that I'm in the virtual machine, there is one thing I want to change to make the machine more discoverable for attackers. I already changed the firewall options through Azure but I also want to disable the firewall on the endpoint machine. To do this I opened the **Firewall & network protection** program that can be easily found through Windows search in the bottom left of the Desktop.
+4. Now that I'm in the virtual machine, there is one thing I want to change to make the machine more discoverable for attackers. I already changed the firewall options through Azure, but I also want to turn off the firewall on the endpoint machine. To do this, I opened the **Firewall & network protection** program that can be easily found through Windows search on the bottom left of the desktop.
 
 ![Screenshot of Windows Security Program in VM](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c4-img4.PNG)
 
 5. On the **Firewall & network protection** page of the **Windows Security** application, I turned off the firewall for the **Domain network, Private network, and Public network**.
-- Again, turning off the firewall is a very bad practice and can lead to compromise of the machine or the organization that it is connected to.
+- Again, turning off the firewall is an awful thing to do and can lead to compromise of the machine or the organization that it is connected to.
 
 ![Screenshot of Windows Security Program in VM](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c4-img5.PNG)
 
@@ -35,17 +35,17 @@
 
 ![Screenshot of Screenshot of Event Viewer in VM](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c4-img7.PNG)
 
-8. Now I can see the filtered results. There are currently 12 events that have happened so far but in the later chapters, that number will grow exponentially.
+8. Now, I can see the filtered results. There are currently 12 events that have happened so far, but in the later chapters, that number will grow exponentially.
 - I can also see through these logs which computer the outside connections tried to connect to and which username they tried to use.
 
 ![Screenshot of Screenshot of Event Viewer in VM](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c4-img8.PNG)
 
-9. I can also see which IP address the connection request came from and can easily look up online where that IP address is located geographically.
+9. I can also see which IP address the connection request came from and can quickly look up online where that IP address is located geographically.
 
 ![Screenshot of Screenshot of Event Viewer in VM](https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/c4-img9.PNG)
 
 - At this point, the honeypot is fully configured. Outside connections will passively find this machine and try to make connections to it with a variety of computer names, usernames, and passwords in an attempt to gain access to the machine.
-- This information will be collected by the **Log Analysis workspace** that was created and visualized through **Microsoft Sentinel** SIEM dashboards and queries that will be set up in the next two chapters.
+- This information will be collected by the **Log Analysis workspace** that was created and visualized through **Microsoft Sentinel** SIEM dashboards and queries that will be set up in the following two chapters.
 
 <img src="https://raw.githubusercontent.com/skghprofile/Microsoft-Azure-SIEM-Project/main/images/AzureVMOverviewWIP.PNG" alt="Project Overview Diagram With IP" width="600">
 
